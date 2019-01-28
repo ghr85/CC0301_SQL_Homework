@@ -67,3 +67,4 @@ SELECT name FROM people WHERE name = 'Gordon Renfrew';
 DELETE FROM movies WHERE title = 'Batman Begins';
 INSERT INTO people(name) VALUES ('Waspy Fae Leith');
 DELETE FROM people WHERE name = 'Craig Morton';
+INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel', 2019, '00:00');
