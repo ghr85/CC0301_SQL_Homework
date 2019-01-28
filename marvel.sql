@@ -64,3 +64,4 @@ select name FROM people;
 UPDATE people SET name = 'Anthony Starke' WHERE name = 'Anthatony Starkes';
 
 SELECT name FROM people WHERE name = 'Gordon Renfrew';
+DELETE * FROM movies WHERE title = 'Batman Begins';
