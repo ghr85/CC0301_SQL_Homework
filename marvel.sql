@@ -66,3 +66,4 @@ UPDATE people SET name = 'Anthony Starke' WHERE name = 'Anthatony Starkes';
 SELECT name FROM people WHERE name = 'Gordon Renfrew';
 DELETE FROM movies WHERE title = 'Batman Begins';
 INSERT INTO people(name) VALUES ('Waspy Fae Leith');
+DELETE FROM people WHERE name = 'Craig Morton';
